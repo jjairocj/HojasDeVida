@@ -1,0 +1,525 @@
+DEBUG 2018-02-03 21:42:57,675 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-02-03 21:42:57,705 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-02-03 21:42:57,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Web.HojasDeVidaWebModule, HojasDeVida.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,722 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaDataModule, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,725 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,725 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,725 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,725 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaCoreModule, HojasDeVida.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaApplicationModule, HojasDeVida.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Api.HojasDeVidaWebApiModule, HojasDeVida.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:42:57,731 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-02-03 21:42:58,067 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 21:42:58,068 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 21:42:58,068 [1    ] o.Configuration.LanguageManagementConfig - Converted HojasDeVida (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 21:42:58,068 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 21:42:58,534 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: HojasDeVida.EntityFramework.HojasDeVidaDbContext, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 21:43:01,786 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-02-03 21:43:01,817 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-02-03 21:43:01,825 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-02-03 21:43:01,829 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HojasDeVida
+DEBUG 2018-02-03 21:43:01,831 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-02-03 21:43:01,963 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-02-03 21:43:02,023 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-02-03 21:43:02,023 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-02-03 21:43:02,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-02-03 21:43:02,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.CreateUserDto
+DEBUG 2018-02-03 21:43:02,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UpdateUserDto
+DEBUG 2018-02-03 21:43:02,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UserDto
+DEBUG 2018-02-03 21:43:02,029 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.CreateRoleDto
+DEBUG 2018-02-03 21:43:02,029 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.PermissionDto
+DEBUG 2018-02-03 21:43:02,029 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.RoleDto
+DEBUG 2018-02-03 21:43:02,029 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-02-03 21:43:02,029 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-02-03 21:43:02,029 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.TenantDto
+DEBUG 2018-02-03 21:43:02,029 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-02-03 21:43:02,029 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-02-03 21:43:04,310 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-02-03 21:43:04,311 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-02-03 21:43:04,313 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-02-03 21:43:04,314 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-02-03 21:43:04,315 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-02-03 21:43:04,316 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2018-02-03 21:43:10,483 [9    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 28
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 28
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+DEBUG 2018-02-03 22:07:05,410 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-02-03 22:07:05,926 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-02-03 22:07:05,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Web.HojasDeVidaWebModule, HojasDeVida.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaDataModule, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaCoreModule, HojasDeVida.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaApplicationModule, HojasDeVida.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Api.HojasDeVidaWebApiModule, HojasDeVida.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:05,945 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-02-03 22:07:06,938 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 22:07:06,939 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 22:07:06,939 [1    ] o.Configuration.LanguageManagementConfig - Converted HojasDeVida (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 22:07:06,939 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 22:07:07,428 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: HojasDeVida.EntityFramework.HojasDeVidaDbContext, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:07:08,713 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-02-03 22:07:08,744 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-02-03 22:07:08,753 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-02-03 22:07:08,758 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HojasDeVida
+DEBUG 2018-02-03 22:07:08,761 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-02-03 22:07:08,840 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-02-03 22:07:08,909 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-02-03 22:07:08,909 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-02-03 22:07:08,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-02-03 22:07:08,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.CreateUserDto
+DEBUG 2018-02-03 22:07:08,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UpdateUserDto
+DEBUG 2018-02-03 22:07:08,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UserDto
+DEBUG 2018-02-03 22:07:08,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.CreateRoleDto
+DEBUG 2018-02-03 22:07:08,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.PermissionDto
+DEBUG 2018-02-03 22:07:08,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.RoleDto
+DEBUG 2018-02-03 22:07:08,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-02-03 22:07:08,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-02-03 22:07:08,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.TenantDto
+DEBUG 2018-02-03 22:07:08,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-02-03 22:07:08,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-02-03 22:07:10,471 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-02-03 22:07:10,473 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-02-03 22:07:10,474 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-02-03 22:07:10,476 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-02-03 22:07:10,477 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-02-03 22:07:10,478 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2018-02-03 22:07:21,370 [8    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 28
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 34
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 28
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+WARN  2018-02-03 22:07:21,370 [11   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 28
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+WARN  2018-02-03 22:12:11,811 [28   ] DeVida.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at HojasDeVida.Web.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() in C:\Users\Jairo\Documents\Visual Studio 2015\Projects\3.2.0\src\HojasDeVida.Web\Controllers\AccountController.cs:line 130
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at HojasDeVida.Web.Controllers.AccountController.<Login>d__12.MoveNext() in C:\Users\Jairo\Documents\Visual Studio 2015\Projects\3.2.0\src\HojasDeVida.Web\Controllers\AccountController.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2018-02-03 22:12:15,575 [28   ] DeVida.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at HojasDeVida.Web.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() in C:\Users\Jairo\Documents\Visual Studio 2015\Projects\3.2.0\src\HojasDeVida.Web\Controllers\AccountController.cs:line 130
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at HojasDeVida.Web.Controllers.AccountController.<Login>d__12.MoveNext() in C:\Users\Jairo\Documents\Visual Studio 2015\Projects\3.2.0\src\HojasDeVida.Web\Controllers\AccountController.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-02-03 22:54:43,628 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-02-03 22:54:44,875 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-02-03 22:54:44,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Web.HojasDeVidaWebModule, HojasDeVida.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaDataModule, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaCoreModule, HojasDeVida.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaApplicationModule, HojasDeVida.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Api.HojasDeVidaWebApiModule, HojasDeVida.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:44,935 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-02-03 22:54:46,597 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 22:54:46,599 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 22:54:46,599 [1    ] o.Configuration.LanguageManagementConfig - Converted HojasDeVida (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 22:54:46,599 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-03 22:54:47,189 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: HojasDeVida.EntityFramework.HojasDeVidaDbContext, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-03 22:54:48,985 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-02-03 22:54:49,019 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-02-03 22:54:49,029 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-02-03 22:54:49,033 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HojasDeVida
+DEBUG 2018-02-03 22:54:49,035 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-02-03 22:54:49,211 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-02-03 22:54:49,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-02-03 22:54:49,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-02-03 22:54:49,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-02-03 22:54:49,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.CreateUserDto
+DEBUG 2018-02-03 22:54:49,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UpdateUserDto
+DEBUG 2018-02-03 22:54:49,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UserDto
+DEBUG 2018-02-03 22:54:49,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.CreateRoleDto
+DEBUG 2018-02-03 22:54:49,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.PermissionDto
+DEBUG 2018-02-03 22:54:49,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.RoleDto
+DEBUG 2018-02-03 22:54:49,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-02-03 22:54:49,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-02-03 22:54:49,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.TenantDto
+DEBUG 2018-02-03 22:54:49,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-02-03 22:54:49,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-02-03 22:54:52,076 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-02-03 22:54:52,078 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-02-03 22:54:52,080 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-02-03 22:54:52,082 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-02-03 22:54:52,083 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-02-03 22:54:52,085 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2018-02-03 22:55:04,276 [10   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 28
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 28
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+DEBUG 2018-02-03 22:55:32,319 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"86c85b1e-2d0a-4452-bc84-81705b00e2ff","IpAddress":"192.168.1.4","TenantId":null,"UserId":1,"ConnectTime":"2018-02-03T22:55:32.305804-05:00","Properties":{}}
+DEBUG 2018-02-03 22:55:32,418 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 86c85b1e-2d0a-4452-bc84-81705b00e2ff
+DEBUG 2018-02-03 22:56:04,932 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 86c85b1e-2d0a-4452-bc84-81705b00e2ff
+DEBUG 2018-02-03 22:56:06,859 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dd1b20f6-6f26-492e-9fc4-8f5628a4e789","IpAddress":"192.168.1.4","TenantId":null,"UserId":1,"ConnectTime":"2018-02-03T22:56:06.8590758-05:00","Properties":{}}
+DEBUG 2018-02-03 22:56:06,905 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dd1b20f6-6f26-492e-9fc4-8f5628a4e789
+DEBUG 2018-02-03 22:56:34,033 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dd1b20f6-6f26-492e-9fc4-8f5628a4e789
+DEBUG 2018-02-03 22:56:34,990 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"552b59ba-b06d-4a68-a471-2f7a3a8f934c","IpAddress":"192.168.1.4","TenantId":null,"UserId":1,"ConnectTime":"2018-02-03T22:56:34.9901949-05:00","Properties":{}}
+DEBUG 2018-02-03 22:56:35,009 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 552b59ba-b06d-4a68-a471-2f7a3a8f934c
+WARN  2018-02-03 22:56:49,583 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'HojasDeVida'!
+DEBUG 2018-02-03 22:56:49,702 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 552b59ba-b06d-4a68-a471-2f7a3a8f934c
+DEBUG 2018-02-03 22:56:50,332 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0e0a60c7-2fca-423f-8637-ad2f00548a9a","IpAddress":"192.168.1.4","TenantId":null,"UserId":1,"ConnectTime":"2018-02-03T22:56:50.3322001-05:00","Properties":{}}
+DEBUG 2018-02-03 22:56:50,412 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0e0a60c7-2fca-423f-8637-ad2f00548a9a
+DEBUG 2018-02-03 22:56:56,065 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0e0a60c7-2fca-423f-8637-ad2f00548a9a
+DEBUG 2018-02-03 22:56:56,806 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"91e875ff-6e3a-428d-b788-8e6128d3c674","IpAddress":"192.168.1.4","TenantId":null,"UserId":1,"ConnectTime":"2018-02-03T22:56:56.8066932-05:00","Properties":{}}
+DEBUG 2018-02-03 22:56:56,837 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 91e875ff-6e3a-428d-b788-8e6128d3c674
+DEBUG 2018-02-03 22:57:00,888 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 91e875ff-6e3a-428d-b788-8e6128d3c674
+DEBUG 2018-02-03 22:57:01,616 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cdf6fb2f-1ef1-4004-a9e5-0a5c90fc404a","IpAddress":"192.168.1.4","TenantId":null,"UserId":1,"ConnectTime":"2018-02-03T22:57:01.616774-05:00","Properties":{}}
+DEBUG 2018-02-03 22:57:01,646 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cdf6fb2f-1ef1-4004-a9e5-0a5c90fc404a
+DEBUG 2018-02-04 00:36:29,913 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-02-04 00:36:29,947 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-02-04 00:36:29,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Web.HojasDeVidaWebModule, HojasDeVida.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaDataModule, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaCoreModule, HojasDeVida.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaApplicationModule, HojasDeVida.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Api.HojasDeVidaWebApiModule, HojasDeVida.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:29,973 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-02-04 00:36:30,453 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:36:30,454 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:36:30,454 [1    ] o.Configuration.LanguageManagementConfig - Converted HojasDeVida (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:36:30,455 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:36:30,940 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: HojasDeVida.EntityFramework.HojasDeVidaDbContext, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:36:34,519 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-02-04 00:36:34,552 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-02-04 00:36:34,562 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-02-04 00:36:34,565 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HojasDeVida
+DEBUG 2018-02-04 00:36:34,567 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-02-04 00:36:34,704 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-02-04 00:36:34,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-02-04 00:36:34,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-02-04 00:36:34,774 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-02-04 00:36:34,774 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.CreateUserDto
+DEBUG 2018-02-04 00:36:34,774 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UpdateUserDto
+DEBUG 2018-02-04 00:36:34,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UserDto
+DEBUG 2018-02-04 00:36:34,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.CreateRoleDto
+DEBUG 2018-02-04 00:36:34,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.PermissionDto
+DEBUG 2018-02-04 00:36:34,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.RoleDto
+DEBUG 2018-02-04 00:36:34,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-02-04 00:36:34,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-02-04 00:36:34,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.TenantDto
+DEBUG 2018-02-04 00:36:34,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-02-04 00:36:34,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-02-04 00:36:37,298 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-02-04 00:36:37,300 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-02-04 00:36:37,302 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-02-04 00:36:37,303 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-02-04 00:36:37,305 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-02-04 00:36:37,307 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-02-04 00:36:58,820 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4e5ceb1a-5aab-4577-9d51-8cc963169bcf","IpAddress":"192.168.1.4","TenantId":null,"UserId":1,"ConnectTime":"2018-02-04T00:36:58.8083064-05:00","Properties":{}}
+DEBUG 2018-02-04 00:36:58,893 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4e5ceb1a-5aab-4577-9d51-8cc963169bcf
+DEBUG 2018-02-04 00:37:36,873 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4e5ceb1a-5aab-4577-9d51-8cc963169bcf
+DEBUG 2018-02-04 00:45:38,096 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-02-04 00:45:38,958 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-02-04 00:45:38,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Web.HojasDeVidaWebModule, HojasDeVida.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaDataModule, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,980 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,980 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,981 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,981 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaCoreModule, HojasDeVida.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,981 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaApplicationModule, HojasDeVida.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,982 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,982 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Api.HojasDeVidaWebApiModule, HojasDeVida.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,982 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:38,990 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-02-04 00:45:40,709 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:45:40,710 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:45:40,710 [1    ] o.Configuration.LanguageManagementConfig - Converted HojasDeVida (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:45:40,710 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:45:41,513 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: HojasDeVida.EntityFramework.HojasDeVidaDbContext, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:45:43,487 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-02-04 00:45:43,530 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-02-04 00:45:43,542 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-02-04 00:45:43,547 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HojasDeVida
+DEBUG 2018-02-04 00:45:43,550 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-02-04 00:45:43,711 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-02-04 00:45:43,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-02-04 00:45:43,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-02-04 00:45:43,817 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-02-04 00:45:43,817 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.CreateUserDto
+DEBUG 2018-02-04 00:45:43,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UpdateUserDto
+DEBUG 2018-02-04 00:45:43,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UserDto
+DEBUG 2018-02-04 00:45:43,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.CreateRoleDto
+DEBUG 2018-02-04 00:45:43,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.PermissionDto
+DEBUG 2018-02-04 00:45:43,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.RoleDto
+DEBUG 2018-02-04 00:45:43,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-02-04 00:45:43,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-02-04 00:45:43,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.TenantDto
+DEBUG 2018-02-04 00:45:43,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-02-04 00:45:43,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-02-04 00:45:46,846 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-02-04 00:45:46,848 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-02-04 00:45:46,851 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-02-04 00:45:46,853 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-02-04 00:45:46,855 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-02-04 00:45:46,857 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-02-04 00:46:09,728 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a778c48b-e18f-40f2-a04f-b4903ac83684","IpAddress":"192.168.1.4","TenantId":null,"UserId":1,"ConnectTime":"2018-02-04T00:46:09.7110328-05:00","Properties":{}}
+DEBUG 2018-02-04 00:46:09,825 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a778c48b-e18f-40f2-a04f-b4903ac83684
+DEBUG 2018-02-04 00:46:22,644 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a778c48b-e18f-40f2-a04f-b4903ac83684
