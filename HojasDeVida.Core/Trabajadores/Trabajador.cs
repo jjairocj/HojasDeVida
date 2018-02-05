@@ -63,15 +63,7 @@ namespace HojasDeVida.Trabajadores
         
         [StringLength(512)]
         public string Direccion { get; set; }
-        
-        public int Estrato { get; set; }
-        
-        [StringLength(512)]
-        public string SitioId { get; set; }
-
-        [StringLength(512)]
-        public string EstadoGeolocalizacion { get; set; }
-
+ 
         [StringLength(512)]
         public string Telefono { get; set; }
 
@@ -88,9 +80,8 @@ namespace HojasDeVida.Trabajadores
         [StringLength(512)]
         public string NivelEducativo { get; set; }
 
-        [StringLength(512)]
-        public string AspiracionSalarial { get; set; }
-
+        public int? AspiracionSalarial { get; set; }
+        
         [StringLength(512)]
         public string MonedaAspiracionSalarial { get; set; }
         

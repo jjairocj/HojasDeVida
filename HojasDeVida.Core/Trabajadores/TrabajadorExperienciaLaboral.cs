@@ -37,7 +37,7 @@ namespace HojasDeVida.Trabajadores
 
         public DateTime? FechaFinal { get; set; }
         
-        [StringLength(1024)]
+        [StringLength(8000)]
         public string Descripcion { get; set; }
 
         [StringLength(512)]

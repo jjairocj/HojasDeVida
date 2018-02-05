@@ -523,3 +523,56 @@ DEBUG 2018-02-04 00:45:46,857 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2018-02-04 00:46:09,728 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a778c48b-e18f-40f2-a04f-b4903ac83684","IpAddress":"192.168.1.4","TenantId":null,"UserId":1,"ConnectTime":"2018-02-04T00:46:09.7110328-05:00","Properties":{}}
 DEBUG 2018-02-04 00:46:09,825 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a778c48b-e18f-40f2-a04f-b4903ac83684
 DEBUG 2018-02-04 00:46:22,644 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a778c48b-e18f-40f2-a04f-b4903ac83684
+DEBUG 2018-02-04 00:56:25,944 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-02-04 00:56:26,807 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-02-04 00:56:26,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Web.HojasDeVidaWebModule, HojasDeVida.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaDataModule, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaCoreModule, HojasDeVida.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.HojasDeVidaApplicationModule, HojasDeVida.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HojasDeVida.Api.HojasDeVidaWebApiModule, HojasDeVida.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:26,837 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-02-04 00:56:28,523 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:56:28,524 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:56:28,524 [1    ] o.Configuration.LanguageManagementConfig - Converted HojasDeVida (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:56:28,524 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-04 00:56:29,275 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: HojasDeVida.EntityFramework.HojasDeVidaDbContext, HojasDeVida.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-04 00:56:31,302 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-02-04 00:56:31,347 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-02-04 00:56:31,359 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-02-04 00:56:31,364 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HojasDeVida
+DEBUG 2018-02-04 00:56:31,367 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-02-04 00:56:31,526 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-02-04 00:56:31,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-02-04 00:56:31,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-02-04 00:56:31,637 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-02-04 00:56:31,638 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.CreateUserDto
+DEBUG 2018-02-04 00:56:31,638 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UpdateUserDto
+DEBUG 2018-02-04 00:56:31,638 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Users.Dto.UserDto
+DEBUG 2018-02-04 00:56:31,638 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.CreateRoleDto
+DEBUG 2018-02-04 00:56:31,638 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.PermissionDto
+DEBUG 2018-02-04 00:56:31,639 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Roles.Dto.RoleDto
+DEBUG 2018-02-04 00:56:31,639 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-02-04 00:56:31,639 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-02-04 00:56:31,639 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.MultiTenancy.Dto.TenantDto
+DEBUG 2018-02-04 00:56:31,639 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-02-04 00:56:31,639 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HojasDeVida.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-02-04 00:56:34,793 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-02-04 00:56:34,795 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-02-04 00:56:34,796 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-02-04 00:56:34,798 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-02-04 00:56:34,799 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-02-04 00:56:34,801 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'HojasDeVida.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-02-04 00:57:02,144 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ad916d09-0c8b-4014-9894-deddd32c6cb4","IpAddress":"192.168.1.4","TenantId":null,"UserId":1,"ConnectTime":"2018-02-04T00:57:02.1275067-05:00","Properties":{}}
+DEBUG 2018-02-04 00:57:02,230 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ad916d09-0c8b-4014-9894-deddd32c6cb4

@@ -13,7 +13,7 @@ namespace HojasDeVida.Trabajadores
         public string UsuarioId { get; set; }
         
         [Display(Name = "Cualificaciones")]
-        [StringLength(8000)]
+        [StringLength(128)]
         public string Descripcion { get; set; }
 
         public virtual Trabajador Trabajador { get; set; }

@@ -216,6 +216,14 @@
     <Compile Include="Roles\Dto\PermissionDto.cs" />
     <Compile Include="Roles\Dto\RoleDto.cs" />
     <Compile Include="Roles\IRoleAppService.cs" />
+    <Compile Include="Trabajadores\Dto\TrabajadorCualificacionDto.cs" />
+    <Compile Include="Trabajadores\Dto\TrabajadorDto.cs" />
+    <Compile Include="Trabajadores\Dto\TrabajadorEducacionDto.cs" />
+    <Compile Include="Trabajadores\Dto\TrabajadorExperienciaLaboralDto.cs" />
+    <Compile Include="Trabajadores\Dto\TrabajadorInteresDto.cs" />
+    <Compile Include="Trabajadores\Dto\TrabajadorReferenciaDto.cs" />
+    <Compile Include="Trabajadores\TrabajadorAppService.cs" />
+    <Compile Include="Trabajadores\Dto\TrabajadorAptitudDto.cs" />
     <Compile Include="Users\Dto\CreateUserDto.cs" />
     <Compile Include="Users\Dto\UpdateUserDto.cs" />
     <Compile Include="Users\Dto\UserDto.cs" />
@@ -239,7 +247,12 @@
       <Project>{17298ea0-af73-4f30-b6f1-2066100d7d74}</Project>
       <Name>HojasDeVida.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HojasDeVida.Utilities\HojasDeVida.Utilities.csproj">
+      <Project>{39af9dae-6dbd-4d59-a29a-e80225347550}</Project>
+      <Name>HojasDeVida.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
