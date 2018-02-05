@@ -7,9 +7,9 @@ using Abp.IdentityFramework;
 using Abp.Localization;
 using Abp.Organizations;
 using Abp.Runtime.Caching;
-using HojasDeVida.Authorization.Roles;
+using HojasDeVida.Autorizacion.Roles;
 
-namespace HojasDeVida.Authorization.Users
+namespace HojasDeVida.Usuarios
 {
     public class UserManager : AbpUserManager<Role, User>
     {
@@ -40,6 +40,9 @@ namespace HojasDeVida.Authorization.Users
                   settingManager,
                   userTokenProviderAccessor)
         {
+            //EmailService = new SendGridEmailService(settingManager);
+            //SmsService = new ElibomSmsService(settingManager);
+            //SmsService = new HablameSmsService(settingManager);
         }
     }
 }

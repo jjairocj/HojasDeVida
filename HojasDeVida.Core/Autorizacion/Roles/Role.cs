@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Abp.Authorization.Roles;
-using HojasDeVida.Authorization.Users;
+using HojasDeVida.Usuarios;
 
-namespace HojasDeVida.Authorization.Roles
+namespace HojasDeVida.Autorizacion.Roles
 {
     public class Role : AbpRole<User>
     {

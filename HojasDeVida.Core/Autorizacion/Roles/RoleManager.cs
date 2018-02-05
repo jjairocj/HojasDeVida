@@ -3,9 +3,9 @@ using Abp.Authorization.Roles;
 using Abp.Domain.Uow;
 using Abp.Runtime.Caching;
 using Abp.Zero.Configuration;
-using HojasDeVida.Authorization.Users;
+using HojasDeVida.Usuarios;
 
-namespace HojasDeVida.Authorization.Roles
+namespace HojasDeVida.Autorizacion.Roles
 {
     public class RoleManager : AbpRoleManager<Role, User>
     {

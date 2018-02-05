@@ -1,4 +1,4 @@
-namespace HojasDeVida.Authorization.Roles
+namespace HojasDeVida.Autorizacion.Roles
 {
     public static class StaticRoleNames
     {

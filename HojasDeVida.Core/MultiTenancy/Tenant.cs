@@ -1,5 +1,5 @@
 ﻿using Abp.MultiTenancy;
-using HojasDeVida.Authorization.Users;
+using HojasDeVida.Usuarios;
 
 namespace HojasDeVida.MultiTenancy
 {

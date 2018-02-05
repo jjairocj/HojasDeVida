@@ -1,7 +1,7 @@
 ﻿using Abp.Application.Features;
 using Abp.Domain.Repositories;
 using Abp.MultiTenancy;
-using HojasDeVida.Authorization.Users;
+using HojasDeVida.Usuarios;
 using HojasDeVida.Editions;
 
 namespace HojasDeVida.MultiTenancy

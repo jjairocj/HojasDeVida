@@ -10,7 +10,7 @@ namespace HojasDeVida.Trabajadores.Dto
     public class TrabajadorEducacionDto : EntityDto
     {
         public string UsuarioId { get; set; }
-        public string TipoFormacion { get; set; }
+        public string TipoEducacion { get; set; }
         public string Institucion { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
@@ -28,8 +28,8 @@ namespace HojasDeVida.Trabajadores.Dto
 
         [Required]
         [StringLength(512)]
-        [Display(Name = "Tipo de formación")]
-        public string TipoFormacion { get; set; }
+        [Display(Name = "Tipo de educación")]
+        public string TipoEducacion { get; set; }
 
         [StringLength(512)]
         [Display(Name = "Nombre de la institución")]

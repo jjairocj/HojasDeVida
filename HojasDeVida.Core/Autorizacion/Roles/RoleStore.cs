@@ -1,9 +1,9 @@
 using Abp.Authorization.Roles;
 using Abp.Authorization.Users;
 using Abp.Domain.Repositories;
-using HojasDeVida.Authorization.Users;
+using HojasDeVida.Usuarios;
 
-namespace HojasDeVida.Authorization.Roles
+namespace HojasDeVida.Autorizacion.Roles
 {
     public class RoleStore : AbpRoleStore<Role, User>
     {

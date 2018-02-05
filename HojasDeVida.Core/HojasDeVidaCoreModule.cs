@@ -4,9 +4,9 @@ using Abp.Localization.Dictionaries.Xml;
 using Abp.Modules;
 using Abp.Zero;
 using Abp.Zero.Configuration;
-using HojasDeVida.Authorization;
-using HojasDeVida.Authorization.Roles;
-using HojasDeVida.Authorization.Users;
+using HojasDeVida.Autorizacion;
+using HojasDeVida.Autorizacion.Roles;
+using HojasDeVida.Usuarios;
 using HojasDeVida.Configuration;
 using HojasDeVida.MultiTenancy;
 

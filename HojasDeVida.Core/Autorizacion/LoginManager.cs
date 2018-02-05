@@ -6,11 +6,11 @@ using Abp.Dependency;
 using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
 using Abp.Zero.Configuration;
-using HojasDeVida.Authorization.Roles;
-using HojasDeVida.Authorization.Users;
+using HojasDeVida.Autorizacion.Roles;
+using HojasDeVida.Usuarios;
 using HojasDeVida.MultiTenancy;
 
-namespace HojasDeVida.Authorization
+namespace HojasDeVida.Autorizacion
 {
     public class LogInManager : AbpLogInManager<Tenant, Role, User>
     {

@@ -191,13 +191,12 @@
     <Compile Include="HojasDeVidaConsts.cs" />
     <Compile Include="HojasDeVidaCoreModule.cs" />
     <Compile Include="AppVersionHelper.cs" />
-    <Compile Include="Authorization\HojasDeVidaAuthorizationProvider.cs" />
-    <Compile Include="Authorization\LoginManager.cs" />
-    <Compile Include="Authorization\PermissionChecker.cs" />
-    <Compile Include="Authorization\PermissionNames.cs" />
-    <Compile Include="Authorization\Roles\AppRoleConfig.cs" />
-    <Compile Include="Authorization\Roles\StaticRoleNames.cs" />
-    <Compile Include="Authorization\Users\UserRegistrationManager.cs" />
+    <Compile Include="Autorizacion\HojasDeVidaAuthorizationProvider.cs" />
+    <Compile Include="Autorizacion\LoginManager.cs" />
+    <Compile Include="Autorizacion\PermissionChecker.cs" />
+    <Compile Include="Autorizacion\PermissionNames.cs" />
+    <Compile Include="Autorizacion\Roles\AppRoleConfig.cs" />
+    <Compile Include="Autorizacion\Roles\StaticRoleNames.cs" />
     <Compile Include="Configuration\AppSettingNames.cs" />
     <Compile Include="Configuration\AppSettingProvider.cs" />
     <Compile Include="Editions\EditionManager.cs" />
@@ -205,12 +204,9 @@
     <Compile Include="MultiTenancy\Tenant.cs" />
     <Compile Include="MultiTenancy\TenantManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Authorization\Roles\Role.cs" />
-    <Compile Include="Authorization\Roles\RoleManager.cs" />
-    <Compile Include="Authorization\Roles\RoleStore.cs" />
-    <Compile Include="Authorization\Users\User.cs" />
-    <Compile Include="Authorization\Users\UserManager.cs" />
-    <Compile Include="Authorization\Users\UserStore.cs" />
+    <Compile Include="Autorizacion\Roles\Role.cs" />
+    <Compile Include="Autorizacion\Roles\RoleManager.cs" />
+    <Compile Include="Autorizacion\Roles\RoleStore.cs" />
     <Compile Include="Trabajadores\ITrabajadorRepository.cs" />
     <Compile Include="Trabajadores\Trabajador.cs" />
     <Compile Include="Trabajadores\TrabajadorAptitud.cs" />
@@ -220,6 +216,9 @@
     <Compile Include="Trabajadores\TrabajadorCualificacion.cs" />
     <Compile Include="Trabajadores\TrabajadorEducacion.cs" />
     <Compile Include="Trabajadores\TrabajadorExperienciaLaboral.cs" />
+    <Compile Include="Usuarios\User.cs" />
+    <Compile Include="Usuarios\UserManager.cs" />
+    <Compile Include="Usuarios\UserStore.cs" />
     <Compile Include="Validation\ValidationHelper.cs" />
   </ItemGroup>
   <ItemGroup>

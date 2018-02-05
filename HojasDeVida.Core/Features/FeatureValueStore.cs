@@ -3,7 +3,7 @@ using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
 using Abp.MultiTenancy;
 using Abp.Runtime.Caching;
-using HojasDeVida.Authorization.Users;
+using HojasDeVida.Usuarios;
 using HojasDeVida.MultiTenancy;
 
 namespace HojasDeVida.Features

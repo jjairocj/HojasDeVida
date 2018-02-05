@@ -1,8 +1,8 @@
 ﻿using Abp.Authorization;
-using HojasDeVida.Authorization.Roles;
-using HojasDeVida.Authorization.Users;
+using HojasDeVida.Autorizacion.Roles;
+using HojasDeVida.Usuarios;
 
-namespace HojasDeVida.Authorization
+namespace HojasDeVida.Autorizacion
 {
     public class PermissionChecker : PermissionChecker<Role, User>
     {
